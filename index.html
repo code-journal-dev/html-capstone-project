@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Student Profile & Course Registration Page</title>
+  </head>
+  <body>
+    <header id="home">
+      <h1 style="text-align:center;">Student Profile & Course Registration Page</h1>
+      <h2>Maarke Rajalakshmi</h2>
+      <p>Diploma 2nd year CSE student.</p>
+      <nav style="text-align:center;">
+        <a href="#home">Home</a> |
+        <a href="#courses">Courses</a> |
+        <a href="#register">Register</a> |
+        <a href="#contact">Contact</a> |
+      </nav>
+    </header>
+    <main>
+      <section>
+        <!--This image is a dummy/neutral placeholder image-->
+        <img src="images/avatar.png" width="300" height="150" alt="neutral/placeholder image">
+      </section>
+      <section>
+        <h2>Skills🔥</h2>
+        <ul>
+          <li>C</li>
+          <li>HTML</li>
+          <li>DBMS</li>
+          <li>Data Structures</li>
+          <li>Python (Intermediate)</li>
+        </ul>
+        <h2>Hobbies</h2>
+        <ul>
+          <li>Reading books 📚</li>
+          <li>Listening music🎵 </li>
+          <li>Enjoying nature 🏞️</li>
+          <li>Learning new technologies 💻</li>
+          <li>Spending time with family & friends</li>
+        </ul>
+      </section>
+      <section id="courses">
+        <table border="1">
+          <caption>Courses Table</caption>
+          <tr>
+            <th>Day</th>
+            <th>Time</th>
+            <th>Course Name</th>
+          </tr>
+          <tr>
+            <td rowspan="2" style="text-align:center;">Mon</td>
+            <td>9:40Am to 12:30Pm</td>
+            <td>HTML</td>
+          </tr>
+          <tr>
+            <td>1:30Pm to 4:30Pm</td>
+            <td>Java</td>
+          </tr>
+          <tr>
+            <td rowspan="2" style="text-align:center;">Tue</td>
+            <td>9:40Am to 12:30Pm</td>
+            <td>Python</td>
+          </tr>
+          <tr>
+            <td>1:30Pm to 4:30Pm</td>
+            <td>DBMS</td>
+          </tr>
+          <tr>
+            <td colspan="3" style="text-align:center;">Holiday</td>
+          </tr>
+          <tr>
+            <td rowspan="2" style="text-align:center;">Thu</td>
+            <td>9:40Am to 12:30Pm</td>
+            <td>Data Structures</td>
+          </tr>
+          <tr>
+            <td>1:30Pm to 4:30Pm</td>
+            <td>C</td>
+          </tr>
+          <tr>
+            <td rowspan="2" style="text-align:center;">Fri</td>
+            <td>9:40Am to 12:30Pm</td>
+            <td>COM</td>
+          </tr>
+          <tr>
+            <td>1:30Pm to 4:30Pm</td>
+            <td>Javascript</td>
+          </tr>
+          <tr>
+            <td colspan="3" style="text-align:center;">Holiday</td>
+          </tr>
+        </table>
+      </section>
+      <section id="register">
+        <h2 style="text-align:center;">Registration Form</h2>
+        <form>
+          <label for="nm">Name:</label>
+          <input type="text" id="nm" name="Name" placeholder="Enter Your Name"><br><br>
+          <label for="em">Email:</label>
+          <input type="email" id="em" name="email" placeholder="Enter Your Email"><br><br>
+          <label for="cd">Select Department:</label>
+          <select name="dept" id="cd">
+            <option>CSE</option>
+            <option>ECE</option>
+            <option>EEE</option>
+            <option>IT</option>
+          </select><br><br>
+         <!-- <label for="ofl">Offline:</label>-->
+          <input type="radio" name="mode" value="offline">Offline
+         <!-- <label for="ol">Online:</label>-->
+          <input type="radio" name="mode" value="online">Online<br><br>
+          <label for="cb">Agree On Terms:</label>
+          <input type="checkbox" id="cb" name="terms"><br><br>
+          <input type="submit" name="Submit">
+        </form>
+      </section>
+      <section id="contact">
+        <h2>Contact Info</h2>
+        <p>ph.no:91 xxxxxxxxxx.</p>
+        <p>Email:profile-registration@example.com</p>
+      </section>
+    </main>
+    <footer>
+      <p>© 2025 Maarke Rajalakshmi.All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
